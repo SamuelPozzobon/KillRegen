@@ -12,9 +12,7 @@ class Main extends PluginBase implements Listener {
 
     public function onEnable() {
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->info(str_repeat("=", 42));
         $this->getLogger()->info(TextFormat::BLUE . "KillRegen enabled");
-        $this->getLogger()->info(str_repeat("=", 42));
     }
 
     /**
